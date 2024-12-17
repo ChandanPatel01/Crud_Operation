@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Record Management</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS for Styling -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9; /* Light grey background */
+            color: #333; /* Dark text color */
+        }
+
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px 60px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #0056b3;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #0056b3;
+            padding: 12px 20px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #004080; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Record Management</h1>
+        
+        <a href='add.jsp'>Add Record</a>
+        <a href='update.jsp'>Update Record</a>
+        <a href='delete.jsp'>Delete Record</a>
+        <a href='find.jsp'>Find Record</a>
+        <a href='findAll.jsp'>Find All Records</a>
+    </div>
+</body>
+</html>
